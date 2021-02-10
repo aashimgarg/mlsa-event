@@ -11,10 +11,8 @@
 - [Staging changes to remote](#7)
 - [git-branches](#8)
 - [How to contribute to open-source projects](#9)
-- [Git workflow](#10)
-- [Awesome VSCode extensions for Git](#11)
-- [git-rebase](#12)
-- [Working with Github Actions](#13)
+- [git-rebase](#11)
+- [Working with Github Actions](#12)
 
 ### Got a query?
 Feel free to reach us in case of any queries. We are always happy to help you one bit at a time🐱‍💻
@@ -39,10 +37,24 @@ Feel free to reach us in case of any queries. We are always happy to help you on
 
 </div>
 </div>
-### <a name="1"></a>What is git?📦
 
 
 
+#### git-rebase
+
+<img src="https://wac-cdn.atlassian.com/dam/jcr:01b0b04e-64f3-4659-af21-c4d86bc7cb0b/01.svg?cdnVersion=dt" />
+
+It solves the same problem as git merge. Both of these are used to add changes from one branch to another. The only difference is 
+
+
+```
+git checkout -b feature-branch
+
+[add commits to your feature branch]
+
+git rebase master
+
+```
 
 
 

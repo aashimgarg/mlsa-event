@@ -38,6 +38,13 @@ Feel free to reach us in case of any queries. We are always happy to help you on
 </div>
 </div>
 
+#### What is Git
+
+Git is the free and open source distributed version control system that's responsible for everything GitHub related that happens locally on your computer.
+
+#### What is GitHub
+
+GitHub is a code hosting platform for collaboration and version control. GitHub lets you (and others) work together on projects.
 
 
 #### git-rebase
@@ -56,5 +63,40 @@ git rebase master
 
 ```
 
+#### Setting up a local repo
+
+1. Open Terminal.
+2. Change the current working directory to your local project.
+3. Initialize the local directory as a Git repository.
+
+```
+git init -b main
+
+```
+
+4. Add the files in your new local repository. This stages them for the first commit.
+```
+git add .
+
+```
+5. Commit the files that you've staged in your local repository.
+
+```
+git commit -m "First commit"
+
+```
+6. At the top of your GitHub repository's Quick Setup page, click to copy the remote repository URL.
+
+7. In Terminal, add the URL for the remote repository where your local repository will be pushed.
+
+```
+git remote add origin  <REMOTE_URL> 
+
+```
+8. Push the changes in your local repository to GitHub.
+```
+git push origin main
+
+```
 
 

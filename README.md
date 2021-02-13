@@ -4,12 +4,13 @@
 ### Topics
 - [What is Git?](#1)
 - [What is Github?](#2)
-- [Setting up git in your device](#3)
-- [Setting up a local repo](#4)
-- [Creating a remote repo](#5)
-- [git-remote](#6)
-- [Staging changes to remote](#7)
-- [git-branches](#8)
+- [Installation?](#3)
+- [Setting up git in your device](#4)
+- [Setting up a local repo](#5)
+- [Creating a remote repo](#6)
+- [git-remote](#7)
+- [Staging changes to remote](#8)
+- [git-branches](#9)
 - [git-rebase](#10)
 - [How to contribute to open-source projects](#11)
 - [Working with Github Actions](#12)
@@ -44,6 +45,35 @@ Git is the free and open source distributed version control system that's respon
 
 GitHub is a code hosting platform for collaboration and version control. GitHub lets you (and others) work together on projects.
 
+### Installation
+
+With platform specific installers for Git, GitHub also provides the ease of staying up-to-date with the latest releases of the command line tool while providing a graphical user interface for day-to-day interaction, review, and repository synchronization.
+
+1. GitHub for Windows
+https://windows.github.com
+
+2. GitHub for Mac
+https://mac.github.com
+
+For Linux and Solaris platforms, the latest release is available on the official Git web site.
+
+3. Git for All Platforms
+http://git-scm.com
+
+### Setup
+
+Configuring user information used across all local repositories
+
+```
+git config --global user.name “[firstname lastname]”
+[set a name that is identifiable for credit when review version history]
+
+git config --global user.email “[valid-email]”
+[set an email address that will be associated with each history marker]
+
+git config --global color.ui auto
+[set automatic command line coloring for Git for easy reviewing]
+```
 
 #### Setting up a local repo
 

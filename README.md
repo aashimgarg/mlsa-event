@@ -101,9 +101,9 @@ git rebase master
 ![Untitled Diagram](https://user-images.githubusercontent.com/44068102/107565039-2e2ae280-6c09-11eb-98e5-d738d4a06d33.png)
 
 
-### Github Actions <sup style="font-size: 15px">[Source]("https://docs.github.com/en/actions/learn-github-actions/introduction-to-github-actions")</sup>
+### Github Actions <sup style="font-size: 15px">[Source](https://docs.github.com/en/actions/learn-github-actions/introduction-to-github-actions)</sup>
 
-![ga](img2.storyblok.com/672x0/f/79165/1200x630/ebb5571e69/github-action-01.png)
+![ga](https://repository-images.githubusercontent.com/200244092/c64f8080-586d-11ea-9f2b-fc72525069dd)
 
 GitHub Actions make it easy to automate all your software workflows. Github Actions let you build, test, and deploy your code right from GitHub. You can also assign code reviews, manage branches, and triage issues the way you want with actions.
 
@@ -118,7 +118,10 @@ Every Github action required a <code>.yml</code> file.
 
 - Steps: A step is an individual task that can run commands in a job. A step can be either an action or a shell command. 
 
- ➡[Demo Project]("https://github.com/saranonearth/demo")
+ ➡ [Demo Project](https://github.com/saranonearth/demo)
+
+
+[Get Started Here](https://lab.github.com/githubtraining/github-actions:-hello-world)🔥
 
 ### Cheat Sheet
 

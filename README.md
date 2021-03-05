@@ -110,6 +110,24 @@ git remote add origin  <REMOTE_URL>
 git push origin main
 
 ```
+
+#### Tracking Path Changes
+
+Versioning file removes and path changes
+
+```
+git rm [file]
+[delete the file from project and stage the removal for commit]
+```
+```
+git mv [existing-path] [new-path]
+[change an existing file path and stage the move]
+```
+```
+git log --stat -M
+[show all commit logs with indication of any paths that moved]
+```
+
 #### Share and Update
 
 Retrieving updates from another repository and updating local repos

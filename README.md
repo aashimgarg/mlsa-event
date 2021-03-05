@@ -162,7 +162,6 @@ git checkout -b feature-branch
 [add commits to your feature branch]
 
 git rebase master
-
 ```
 
 ### Contributing to open-source
